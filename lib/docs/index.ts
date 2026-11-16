@@ -49,6 +49,8 @@ import { docs as clausePlaybook } from "@/registry/clause-playbook/docs";
 import { docs as toneRewrite } from "@/registry/tone-rewrite/docs";
 import { docs as inboxCleanup } from "@/registry/inbox-cleanup/docs";
 import { docs as renewalRings } from "@/registry/renewal-rings/docs";
+import { docs as voiceSession } from "@/registry/voice-session/docs";
+import { docs as modelPicker } from "@/registry/model-picker/docs";
 import { docs as messageLog } from "@/registry/message-log/docs";
 import { docs as divergingBars } from "@/registry/diverging-bars/docs";
 import { docs as blastRadius } from "@/registry/blast-radius/docs";
@@ -138,6 +140,8 @@ export const componentDocs: Record<string, ComponentDocs> = {
   "tone-rewrite": toneRewrite,
   "inbox-cleanup": inboxCleanup,
   "renewal-rings": renewalRings,
+  "voice-session": voiceSession,
+  "model-picker": modelPicker,
   "message-log": messageLog,
   "diverging-bars": divergingBars,
   "blast-radius": blastRadius,

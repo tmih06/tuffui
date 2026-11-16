@@ -303,6 +303,26 @@ export const catalog: CatalogEntry[] = [
     status: "ready",
   },
   {
+    slug: "model-picker",
+    name: "Model Picker",
+    description:
+      "Model choice from a composer pill as a real comparison — search, providers, speed, price and context bars, capability badges, a pick for the task, and what this chat would cost.",
+    category: "conversation",
+    variants: ["Default"],
+    status: "ready",
+    added: "2026-11-16",
+  },
+  {
+    slug: "voice-session",
+    name: "Voice Session",
+    description:
+      "Voice mode of a chat — dot-column level bars that change with who's talking, a word-by-word transcript, barge-in marks, and mute, hold, voice and end controls.",
+    category: "conversation",
+    variants: ["Default"],
+    status: "ready",
+    added: "2026-11-16",
+  },
+  {
     slug: "streaming-message",
     name: "Streaming Message",
     description:
